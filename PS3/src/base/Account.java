@@ -4,20 +4,14 @@ import java.util.Date;
 
 public class Account {
 
-	// A private int data field named id for the account (default 0).
 	private int id;
 
-	// A private double data field named balance for the account (default 0).
 	private double balance;
 
-	// A private double data field named annualInterestRate
-	private double annualInterestRate; // stores current interest rate
+	private double annualInterestRate;
 
-	// A private Date data field named dateCreated that stores the date when the
-	// account was created.
 	private Date dateCreated;
 
-	// A no-arg constructor that creates a default account.
 	Account() {
 		id = 0;
 		balance = 0.0;
